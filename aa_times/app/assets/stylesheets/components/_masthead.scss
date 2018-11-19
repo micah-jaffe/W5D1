@@ -3,6 +3,7 @@
 	flex-direction: column;
 	align-items: center;
 	border-bottom: 2px solid black;
+  border-top: 1px solid $light-gray;
 	position: relative;
 }
 
@@ -27,6 +28,10 @@
 
 .language-nav ul {
 	display: flex;
+}
+
+.language-nav li:first-child { 
+  font-weight: 700;
 }
 
 .logo {
@@ -71,4 +76,12 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.masthead-links li:last-child {
+  border-right: 0;
+}
+
+.language-nav a:hover, .masthead-link:hover {
+  text-decoration: underline;
 }
