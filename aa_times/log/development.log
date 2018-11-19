@@ -71,3 +71,24 @@ Completed 200 OK in 153ms (Views: 91.7ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/application.self-9da0aa1b727b9442c83255c76b0dedf3b22b5ef2a0baeb13c1cbdedaeb0f0597.css?body=1" for ::1 at 2018-11-19 11:33:31 -0800
+Started GET "/assets/application.self-9da0aa1b727b9442c83255c76b0dedf3b22b5ef2a0baeb13c1cbdedaeb0f0597.css?body=1&livereload=1542656184710" for ::1 at 2018-11-19 11:36:24 -0800
+Started GET "/assets/application.self-9da0aa1b727b9442c83255c76b0dedf3b22b5ef2a0baeb13c1cbdedaeb0f0597.css?body=1&livereload=1542656184711" for ::1 at 2018-11-19 11:36:24 -0800
+Started GET "/" for ::1 at 2018-11-19 11:36:25 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 96ms (Views: 91.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1" for ::1 at 2018-11-19 11:36:25 -0800
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1&livereload=1542656197066" for ::1 at 2018-11-19 11:36:37 -0800
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1&livereload=1542656197067" for ::1 at 2018-11-19 11:36:37 -0800
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1&livereload=1542656232703" for ::1 at 2018-11-19 11:37:12 -0800
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1&livereload=1542656232704" for ::1 at 2018-11-19 11:37:12 -0800
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1&livereload=1542656290692" for ::1 at 2018-11-19 11:38:10 -0800
+Started GET "/assets/application.self-e6b560ae0ec39f4a9e013ce1e501db6475437cc1d2b66fc59267715e52cdff74.css?body=1&livereload=1542656290692&livereload=1542656290692" for ::1 at 2018-11-19 11:38:10 -0800
