@@ -1,34 +1,45 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
 }
 
 .left-nav > ul > li {
-
+  font-family: $sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background-color 0.5s;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 10px;
 }
 
 .right-nav > ul > li {
-
+  padding: 5px;
 }
 
 .right-nav > ul > li:last-of-type {
+  padding: 10px;
+  font-size: 16px;
+  transition: background-color 0.5s;
 
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $lightest-gray;
 }
 
 .left-nav span {
-
 }
 
 
 .right-nav i {
-
+  font-size: 16px;
 }
